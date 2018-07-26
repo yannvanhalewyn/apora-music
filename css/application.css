@@ -56,7 +56,7 @@ a:hover {
  */
 
 .l-content {
-  padding: 40px;
+  padding: 10px;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -81,6 +81,10 @@ a:hover {
 }
 
 @media only screen and (min-width: 800px) {
+  .l-content {
+    padding: 40px;
+  }
+
   .l-col-4-m {
     width: 33%;
   }
@@ -134,10 +138,23 @@ a:hover {
   background-size: contain;
 }
 
+.release {
+  text-align: center;
+  margin-top: 20px;
+}
+
 @media only screen and (min-width: 800px) {
+  .release {
+    font-size: 1.4em;
+    text-align: left;
+  }
   .release__image-wrapper {
     border-right: 2px solid white;
     padding: 10px 60px 10px 0;
+  }
+
+  .release__info {
+    padding-left: 60px;
   }
 }
 
@@ -159,19 +176,17 @@ a:hover {
 
 .release__info {
   color: #ddd;
-  padding-left: 60px;
 }
 
 .release__artist,
 .release__title {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .release__date,
 .release__album {
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
-  font-size: 1.5em;
 }
 
 .icon {
