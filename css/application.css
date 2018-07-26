@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: simplifica;
-  src: url("/fonts/SIMPLIFICA%20Typeface.ttf");
+  src: url("../fonts/SIMPLIFICA%20Typeface.ttf");
 }
 
 *, *:before, *:after {
@@ -89,7 +89,7 @@ a:hover {
 
 .header-name {
   min-height: 130px;
-  background-image: url("/img/header_name.png");
+  background-image: url("../img/header_name.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -106,7 +106,7 @@ a:hover {
 
 .hero {
   min-height: 600px;
-  background-image: url("/img/hero_logo.png");
+  background-image: url("../img/hero_logo.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -118,7 +118,7 @@ a:hover {
   padding: 20px 0 15px;
   margin: 0 auto;
   text-align: center;
-  background-image: url("/img/section_separator.png");
+  background-image: url("../img/section_separator.png");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -138,11 +138,11 @@ a:hover {
 }
 
 .release_image--days-like-nights {
-  background-image: url("/img/release_days_like_nights.jpg");
+  background-image: url("../img/release_days_like_nights.jpg");
 }
 
 .release_image--assembly-05 {
-  background-image: url("/img/release_assembly_05.jpg");
+  background-image: url("../img/release_assembly_05.jpg");
 }
 
 .release__info {
