@@ -1,3 +1,7 @@
+/*
+ * General
+ */
+
 @font-face {
   font-family: simplifica;
   src: url("/fonts/SIMPLIFICA%20Typeface.ttf");
@@ -16,13 +20,25 @@ a {
   text-decoration: none;
 }
 
-.nav {
-  text-align: center;
-  font-size: 2em;
-  color: #BBBDC0;
+/*
+ * Utilities
+ */
+
+.u-margin-top {
+  margin-top: 20px;
 }
 
-.nav-item:hover { color: white; }
+.u-margin-left {
+  margin-left: 20px;
+}
+
+.u-margin-right {
+  margin-right: 20px;
+}
+
+/*
+ * Modules
+ */
 
 .header-name {
   min-height: 200px;
@@ -32,12 +48,30 @@ a {
   background-size: contain;
 }
 
-.u-margin-top {
-  margin-top: 40px;
+.nav {
+  padding: 50px;
+  text-align: center;
+  font-size: 2em;
+  color: #BBBDC0;
 }
-.u-margin-left {
-  margin-left: 20px;
+
+.nav-item:hover { color: white; }
+
+.hero {
+  min-height: 600px;
+  background-image: url("/img/hero_logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
 }
-.u-margin-right {
-  margin-right: 20px;
+
+.section-title {
+  max-width: 600px;
+  font-size: 2em;
+  padding: 20px 0 30px;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("/img/section_separator.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
 }
