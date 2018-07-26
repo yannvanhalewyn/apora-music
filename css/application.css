@@ -49,6 +49,8 @@ a:hover {
   margin-right: 20px;
 }
 
+.u-hide { display: none; }
+
 /*
  * Layout
  */
