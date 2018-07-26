@@ -1,0 +1,43 @@
+@font-face {
+  font-family: simplifica;
+  src: url("/fonts/SIMPLIFICA%20Typeface.ttf");
+}
+
+body {
+  font-family: simplifica, sans-serif;
+  color: #BBBDC0;
+  margin-top: 60px;
+  background-color: #262423;
+  background-color: #1b1817;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav {
+  text-align: center;
+  font-size: 2em;
+  color: #BBBDC0;
+}
+
+.nav-item:hover { color: white; }
+
+.header-name {
+  min-height: 200px;
+  background-image: url("/img/header_name.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.u-margin-top {
+  margin-top: 40px;
+}
+.u-margin-left {
+  margin-left: 20px;
+}
+.u-margin-right {
+  margin-right: 20px;
+}
