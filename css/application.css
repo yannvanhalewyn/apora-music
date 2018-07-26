@@ -63,26 +63,31 @@ a:hover {
 
 .l-row {
   margin: 0 -5px;
-  display: flex;
-  flex: 0 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
-.l-col-4 {
-  flex: 0 0 100%;
-  padding: 0 5px;
-  max-width: 100%;
-  flex-basis: 33%;
-  max-width: 33%;
+.l-col-12-s {
+  display: inline-block;
+  width: 100%;
 }
 
-.l-col-8 {
-  flex: 0 0 100%;
+.l-col-4-m {
+  display: inline-block;
   padding: 0 5px;
-  max-width: 100%;
-  flex-basis: 66%;
-  max-width: 66%;
+}
+
+.l-col-8-m {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+@media only screen and (min-width: 800px) {
+  .l-col-4-m {
+    width: 33%;
+  }
+
+  .l-col-8-m {
+    width: 66%;
+  }
 }
 
 /*
@@ -107,12 +112,15 @@ a:hover {
 .nav-item:hover { color: white; }
 
 .hero {
-  min-height: 600px;
+  min-height: 300px;
   background-image: url("../img/hero_logo.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
 }
+
+@media only screen and (min-width: 300px) { .hero { min-height: 400px; } }
+@media only screen and (min-width: 500px) { .hero { min-height: 600px; } }
 
 .section-title {
   max-width: 600px;
@@ -126,9 +134,11 @@ a:hover {
   background-size: contain;
 }
 
-.release__image-wrapper {
-  border-right: 2px solid white;
-  padding: 10px 60px 10px 0;
+@media only screen and (min-width: 800px) {
+  .release__image-wrapper {
+    border-right: 2px solid white;
+    padding: 10px 60px 10px 0;
+  }
 }
 
 .release__image {
