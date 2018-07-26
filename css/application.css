@@ -120,12 +120,19 @@ a {
 }
 
 .release__image {
-  background-image: url("/img/release_days_like_nights.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   min-width: 200px;
   min-height: 200px;
+}
+
+.release_image--days-like-nights {
+  background-image: url("/img/release_days_like_nights.jpg");
+}
+
+.release_image--assembly-05 {
+  background-image: url("/img/release_assembly_05.jpg");
 }
 
 .release__info {
