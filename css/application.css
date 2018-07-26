@@ -14,10 +14,14 @@
 body {
   font-family: simplifica, sans-serif;
   color: #BBBDC0;
-  margin-top: 60px;
+  margin-top: 30px;
   background-color: #262423;
   background-color: #1b1817;
   padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 800px) {
+  body { margin-top: 60px; }
 }
 
 a {
