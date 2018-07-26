@@ -15,4 +15,21 @@ const inlineSVGs = function() {
   });
 }
 
-$(inlineSVGs);
+const initScrollMenu = function() {
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+}
+
+const init = function() {
+  inlineSVGs();
+  initScrollMenu();
+}
+
+$(init);
