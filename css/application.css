@@ -7,6 +7,10 @@
   src: url("/fonts/SIMPLIFICA%20Typeface.ttf");
 }
 
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: simplifica, sans-serif;
   color: #BBBDC0;
@@ -34,6 +38,40 @@ a {
 
 .u-margin-right {
   margin-right: 20px;
+}
+
+/*
+ * Layout
+ */
+
+.l-content {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.l-row {
+  margin: 0 -5px;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.l-col-4 {
+  flex: 0 0 100%;
+  padding: 0 5px;
+  max-width: 100%;
+  flex-basis: 33%;
+  max-width: 33%;
+}
+
+.l-col-8 {
+  flex: 0 0 100%;
+  padding: 0 5px;
+  max-width: 100%;
+  flex-basis: 66%;
+  max-width: 66%;
 }
 
 /*
@@ -74,4 +112,37 @@ a {
   background-image: url("/img/section_separator.png");
   background-position: center bottom;
   background-repeat: no-repeat;
+}
+
+.release__image-wrapper {
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.release__image {
+  border-right: 2px solid white;
+  padding: 20px;
+  background-image: url("/img/release_days_like_nights.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.release__info {
+  color: #ddd;
+  padding-left: 20px;
+}
+
+.release__artist,
+.release__title {
+  font-size: 3em;
+}
+
+.release__date,
+.release__album {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 1.5em;
 }
