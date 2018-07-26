@@ -88,7 +88,7 @@ a:hover {
  */
 
 .header-name {
-  min-height: 200px;
+  min-height: 130px;
   background-image: url("/img/header_name.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -96,7 +96,7 @@ a:hover {
 }
 
 .nav {
-  padding: 50px;
+  padding: 30px;
   text-align: center;
   font-size: 2em;
   color: #BBBDC0;
@@ -115,12 +115,13 @@ a:hover {
 .section-title {
   max-width: 600px;
   font-size: 2em;
-  padding: 20px 0 30px;
+  padding: 20px 0 15px;
   margin: 0 auto;
   text-align: center;
   background-image: url("/img/section_separator.png");
   background-position: center bottom;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .release__image-wrapper {
