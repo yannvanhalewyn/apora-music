@@ -1,0 +1,8 @@
+#!/bin/sh
+
+aws s3 cp index.html s3://www.aporamusic.com/
+aws s3 cp CNAME s3://www.aporamusic.com/
+aws s3 sync css s3://www.aporamusic.com/css/
+aws s3 sync js s3://www.aporamusic.com/js/
+aws s3 sync fonts s3://www.aporamusic.com/fonts/
+aws s3 sync img s3://www.aporamusic.com/img/

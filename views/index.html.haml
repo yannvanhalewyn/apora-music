@@ -1,0 +1,82 @@
+!!!
+%html
+  %head
+    %meta{charset: "UTF-8"}
+    %meta{charset: "width=device-width", name: "viewport"}
+    %meta{content: "Apora is a young and talented EDM producer.", name: "description"}
+    %meta{content: "Apora Music", property: "og:title"}
+    %meta{content: "Apora is a young and talented EDM producer", property: "og:description"}
+    %meta{content: "img/hero_logo.png", property: "og:image"}
+    %meta{content: "website", property: "og:type"}
+    %meta{content: "https://aporamusic.com", property: "og:url"}
+    %meta{content: "Apora Music", property: "og:site_name"}
+    %title Apora Music
+    %link{href: "https://fonts.googleapis.com/css?family=Montserrat", rel: "stylesheet"}
+    %link{charset: "utf-8", href: "css/application.css", media: "screen", rel: "stylesheet", title: "no title", type: "text/css"}
+    %link{href: "img/favicon.ico", rel: "shortcut icon"}
+  %body
+    %header
+      %h1.u-hide Apora Music - Discover some great EDM tracks!
+      .header-name
+      %nav.nav.u-margin-top
+        %a.nav-item.u-margin-right{href: "#releases", title: "releases"} RELEASES
+        |
+        %a.nav-item.u-margin-left{href: "#contact", title: "contact"} CONTACT
+    .hero.u-margin-top
+    %section#releases.u-margin-top
+      %h2.section-title
+        RELEASES
+      .release.l-content
+        .l-row
+          .l-col-4-m.l-col-12-s.release__image-wrapper
+            .release__image.release_image--days-like-nights
+          .l-col-8-m.l-col-12-s
+            .release__info
+              .release__artist APORA & MODERON
+              .release__title Mind Over Matter (Original Mix)
+              .release__date.u-margin-top TBA
+              .release__album DAYS like NIGHTS - Coming Soon
+              .release__social.u-margin-top
+                %a.social-link{href: "#", target: "_blank", title: "Mind over Matter on Spotify"}
+                  %img.js-load-svg.icon.icon--spotify{alt: "spotify", src: "img/icon_spotify.svg"}
+                %a.social-link{href: "#", target: "_blank", title: "Mind over matter on Soundcloud"}
+                  %img.js-load-svg.icon.icon--soundcloud{alt: "soundcloud", src: "img/icon_soundcloud.svg"}
+                %a.social-link{href: "#", target: "_blank", title: "Mind over matter on Beatport"}
+                  %img.js-load-svg.icon.icon--beatport{alt: "beatport", src: "img/icon_beatport.svg"}
+      .release.l-content
+        .l-row
+          .l-col-4-m.l-col-12-s.release__image-wrapper
+            .release__image.release_image--assembly-05
+          .l-col-8-m.l-col-12-s
+            .release__info
+              .release__artist APORA & MODERON
+              .release__title Sandcastle Empire (Original Mix)
+              .release__date.u-margin-top Assembly 05
+              .release__album EIN2 - 12-2017
+              .release__social.u-margin-top
+                %a.social-link{href: "https://open.spotify.com/track/3GeZWZ0Npf4D1yLSEr4eNZ?si=g4-K7hOGSxGMli1j7ynTxA", target: "_blank", title: "Sandcast Empire on Spotify"}
+                  %img.js-load-svg.icon.icon--spotify{alt: "spotify", src: "img/icon_spotify.svg"}
+                %a.social-link{href: "https://soundcloud.com/ein2/apora-moderon-sandcastle-empire", target: "_blank", title: "Sandcast Empire on Soundcloud"}
+                  %img.js-load-svg.icon.icon--soundcloud{alt: "soundcloud", src: "img/icon_soundcloud.svg"}
+                %a.social-link{href: "https://www.beatport.com/track/sandcastle-empire-original-mix/10020102", target: "_blank", title: "Sandcast Empire on Beatport"}
+                  %img.js-load-svg.icon.icon--beatport{alt: "beatport", src: "img/icon_beatport.svg"}
+    %section#contact.u-margin-top
+      %h2.section-title
+        CONTACT
+      .contact.u-margin-top
+        .contact__email
+          %span Contact:
+          %a{href: "mailto:info@aporamusic.com", title: "email"} info[at]aporamusic.com
+        .contact__social
+          %a.social-link{href: "http://www.facebook.com/aporamusic", target: "_blank", title: "Apora on Facebook"}
+            %img.js-load-svg.icon.icon--facebook{alt: "facebook", src: "img/icon_facebook.svg"}
+          %a.social-link{href: "http://instagram.com/aporamusic", target: "_blank", title: "Apora on Instagram"}
+            %img.js-load-svg.icon.icon--instagram{alt: "instagram", src: "img/icon_instagram.svg"}
+          %a.social-link{href: "https://open.spotify.com/artist/7efnPoY5VKz95jbbUEXjVP?si=kDjzVAQJQpCzo41Zh0D7Og", target: "_blank", title: "Apora on Spotify"}
+            %img.js-load-svg.icon.icon--spotify{alt: "spotify", src: "img/icon_spotify.svg"}
+          %a.social-link{href: "https://soundcloud.com/apora", target: "_blank", title: "Apora on Soundcloud"}
+            %img.js-load-svg.icon.icon--soundcloud{alt: "soundcloud", src: "img/icon_soundcloud.svg"}
+          %a.social-link{href: "https://www.beatport.com/artist/apora/656548", target: "_blank", title: "Apora on Beatport"}
+            %img.js-load-svg.icon.icon--beatport{alt: "beatport", src: "img/icon_beatport.svg"}
+    %script{src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"}
+    %script{src: "js/application.js"}
