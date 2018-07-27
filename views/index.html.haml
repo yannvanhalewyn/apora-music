@@ -24,8 +24,7 @@
         %a.nav-item.u-margin-left{href: "#contact", title: "contact"} CONTACT
     .hero.u-margin-top
     %section#releases.u-margin-top
-      %h2.section-title
-        RELEASES
+      %h2.section-title RELEASES
 
       - each release in releases
         .release.l-content
@@ -44,8 +43,7 @@
                     != icons[social_link.type]
 
     %section#contact.u-margin-top
-      %h2.section-title
-        CONTACT
+      %h2.section-title CONTACT
       .contact.u-margin-top
         .contact__email
           %span Contact:
@@ -55,5 +53,14 @@
             %a.social-link{href: social_link.url, target: "_blank", title: "Apora on " + social_link.type, class: "icon icon--" + social_link.type}
               != icons[social_link.type]
 
-    %script{src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"}
-    %script{src: "js/application.js"}
+    %script
+      :plain
+        document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+          anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+              behavior: 'smooth'
+            });
+          });
+        });
