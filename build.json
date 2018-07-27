@@ -48,5 +48,27 @@
         }
       ]
     }
+  ],
+  "social": [
+    {
+      "type": "facebook",
+      "url": "http://www.facebook.com/aporamusic"
+    },
+    {
+      "type": "instagram",
+      "url": "http://instagram.com/aporamusic"
+    },
+    {
+      "type": "spotify",
+      "url": "https://open.spotify.com/artist/7efnPoY5VKz95jbbUEXjVP?si=kDjzVAQJQpCzo41Zh0D7Og"
+    },
+    {
+      "type": "soundcloud",
+      "url": "https://soundcloud.com/apora"
+    },
+    {
+      "type": "beatport",
+      "url": "https://www.beatport.com/artist/apora/656548"
+    }
   ]
 }

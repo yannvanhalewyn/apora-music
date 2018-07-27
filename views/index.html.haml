@@ -51,15 +51,9 @@
           %span Contact:
           %a{href: "mailto:info@aporamusic.com", title: "email"} info[at]aporamusic.com
         .contact__social
-          %a.social-link{href: "http://www.facebook.com/aporamusic", target: "_blank", title: "Apora on Facebook"}
-            %img.js-load-svg.icon.icon--facebook{alt: "facebook", src: "img/icon_facebook.svg"}
-          %a.social-link{href: "http://instagram.com/aporamusic", target: "_blank", title: "Apora on Instagram"}
-            %img.js-load-svg.icon.icon--instagram{alt: "instagram", src: "img/icon_instagram.svg"}
-          %a.social-link{href: "https://open.spotify.com/artist/7efnPoY5VKz95jbbUEXjVP?si=kDjzVAQJQpCzo41Zh0D7Og", target: "_blank", title: "Apora on Spotify"}
-            %img.js-load-svg.icon.icon--spotify{alt: "spotify", src: "img/icon_spotify.svg"}
-          %a.social-link{href: "https://soundcloud.com/apora", target: "_blank", title: "Apora on Soundcloud"}
-            %img.js-load-svg.icon.icon--soundcloud{alt: "soundcloud", src: "img/icon_soundcloud.svg"}
-          %a.social-link{href: "https://www.beatport.com/artist/apora/656548", target: "_blank", title: "Apora on Beatport"}
-            %img.js-load-svg.icon.icon--beatport{alt: "beatport", src: "img/icon_beatport.svg"}
+          - each social_link in social
+            %a.social-link{href: social_link.url, target: "_blank", title: "Apora on " + social_link.type}
+              %img.js-load-svg.icon.icon--facebook{alt: social_link.type, src: "img/icon_" + social_link.type + ".svg"}
+
     %script{src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"}
     %script{src: "js/application.js"}
