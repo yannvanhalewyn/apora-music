@@ -187,11 +187,11 @@ a:hover {
   }
 }
 
-.icon {
+.icon svg {
   width: 30px;
 }
 
-.icon--beatport {
+.icon--beatport svg {
   width: 80px;
 }
 

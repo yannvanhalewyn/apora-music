@@ -40,8 +40,8 @@
                 .release__album= release.album
                 .release__social.u-margin-top
                 - each social_link in release.social
-                  %a.social-link{href: social_link.url, target: "_blank", title: release.title + " on " + social_link.type}
-                    %img.js-load-svg.icon.icon--spotify{alt: social_link.type, src: "img/icon_" + social_link.type + ".svg"}
+                  %a.social-link{href: social_link.url, target: "_blank", title: release.title + " on " + social_link.type, class: "icon icon--" + social_link.type}
+                    != icons[social_link.type]
 
     %section#contact.u-margin-top
       %h2.section-title
@@ -52,8 +52,8 @@
           %a{href: "mailto:info@aporamusic.com", title: "email"} info[at]aporamusic.com
         .contact__social
           - each social_link in social
-            %a.social-link{href: social_link.url, target: "_blank", title: "Apora on " + social_link.type}
-              %img.js-load-svg.icon.icon--facebook{alt: social_link.type, src: "img/icon_" + social_link.type + ".svg"}
+            %a.social-link{href: social_link.url, target: "_blank", title: "Apora on " + social_link.type, class: "icon icon--" + social_link.type}
+              != icons[social_link.type]
 
     %script{src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"}
     %script{src: "js/application.js"}
