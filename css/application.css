@@ -155,14 +155,6 @@ a:hover {
   min-height: 200px;
 }
 
-.release_image--days-like-nights {
-  background-image: url("../img/release_days_like_nights.jpg");
-}
-
-.release_image--assembly-05 {
-  background-image: url("../img/release_assembly_05.jpg");
-}
-
 .release__info {
   color: #ddd;
   padding-top: 20px;
