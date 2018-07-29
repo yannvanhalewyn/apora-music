@@ -1,6 +1,8 @@
 # Apora Music
 
-A simple portfolio website for a friend.
+A simple portfolio website for a friend's EDM project.
+
+https://aporamusic.com
 
 ## Setup
 
