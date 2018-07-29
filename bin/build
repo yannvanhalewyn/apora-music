@@ -3,6 +3,6 @@
 rm -rf build/
 ./node_modules/.bin/render views/index.html.haml --output build/index.html --context build.yml
 
-cp -r css  build/
-cp -r fonts build/
-cp -r img build/
+rsync -avz css  build/
+rsync -avz fonts build/
+rsync -avz img build/
