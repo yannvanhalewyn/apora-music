@@ -6,21 +6,19 @@ seo:
 
 releases:
 - artist: APORA & MODERON
-  title: Mind Over Matter (Original Mix)
-  date: TBA
-  album: DAYS like NIGHTS - Coming Soon
-  img: release_days_like_nights.jpg
+  title: Mind Over Matter
+  album: Nocturnal 002
+  label: DAYS like NIGHTS
+  img: release_nocturnal.jpg
   social:
   - type: spotify
-    url: "#"
-  - type: soundcloud
-    url: "#"
+    url: https://open.spotify.com/track/0i4SxWUjzWhAs79jtTSfrI
   - type: beatport
-    url: "#"
+    url: https://www.beatport.com/track/mind-over-matter-extended-mix/10842862
 - artist: APORA & MODERON
   title: Sandcastle Empire (Original Mix)
-  date: Assembly 05
-  album: EIN2 - 12-2017
+  album: Assembly 05
+  label: EIN2 - 12-2017
   img: release_assembly_05.jpg
   social:
   - type: spotify
