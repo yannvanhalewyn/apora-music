@@ -171,6 +171,13 @@ a:hover {
 .release__label,
 .release__album {
   font-family: 'Montserrat', sans-serif;
+}
+
+.release__label {
+  font-weight: bold;
+}
+
+.release__album {
   font-style: italic;
 }
 
