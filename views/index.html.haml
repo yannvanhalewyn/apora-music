@@ -35,8 +35,11 @@
               .release__info
                 .release__artist= release.artist
                 .release__title= release.title
-                .release__label.u-margin-top= release.label
-                .release__album= release.album
+                .release__album.u-margin-top= release.album
+                .release__label
+                  = release.label
+                  = " - "
+                  = release.date
                 .release__social.u-margin-top
                 - each social_link in release.social
                   %a.social-link{href: social_link.url, target: "_blank", title: release.title + " on " + social_link.type, class: "icon icon--" + social_link.type}

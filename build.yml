@@ -9,6 +9,7 @@ releases:
   title: Mind Over Matter
   album: Nocturnal 002
   label: DAYS like NIGHTS
+  date: 08-2018
   img: release_nocturnal.jpg
   social:
   - type: spotify
@@ -18,7 +19,8 @@ releases:
 - artist: APORA & MODERON
   title: Sandcastle Empire (Original Mix)
   album: Assembly 05
-  label: EIN2 - 12-2017
+  label: EIN2
+  date: 12-2017
   img: release_assembly_05.jpg
   social:
   - type: spotify
